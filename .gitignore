@@ -1,0 +1,31 @@
+# === Java / Spring Boot ===
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+out/
+
+# === Node / Frontend ===
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+# === Logs ===
+*.log
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+/data/
+*.pid
+
+# === Misc ===
+.env
